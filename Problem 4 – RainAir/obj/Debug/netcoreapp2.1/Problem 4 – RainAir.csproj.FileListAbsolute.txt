@@ -9,3 +9,14 @@ D:\softuni - tech module\exercises\exercises\Problem 4 – RainAir\obj\Debug\net
 D:\softuni - tech module\exercises\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.AssemblyInfo.cs
 D:\softuni - tech module\exercises\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.dll
 D:\softuni - tech module\exercises\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.pdb
+D:\softuni - tech module\exercises\Problem 4 – RainAir\bin\Debug\netcoreapp2.1\Problem 4 – RainAir.deps.json
+D:\softuni - tech module\exercises\Problem 4 – RainAir\bin\Debug\netcoreapp2.1\Problem 4 – RainAir.runtimeconfig.json
+D:\softuni - tech module\exercises\Problem 4 – RainAir\bin\Debug\netcoreapp2.1\Problem 4 – RainAir.runtimeconfig.dev.json
+D:\softuni - tech module\exercises\Problem 4 – RainAir\bin\Debug\netcoreapp2.1\Problem 4 – RainAir.dll
+D:\softuni - tech module\exercises\Problem 4 – RainAir\bin\Debug\netcoreapp2.1\Problem 4 – RainAir.pdb
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.csprojAssemblyReference.cache
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.csproj.CoreCompileInputs.cache
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.AssemblyInfoInputs.cache
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.AssemblyInfo.cs
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.dll
+D:\softuni - tech module\exercises\Problem 4 – RainAir\obj\Debug\netcoreapp2.1\Problem 4 – RainAir.pdb

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\softuni - tech module\\exercises\\Problem 4 – RainAir\\Problem 4 – RainAir.csproj",
-      "projectName": "Problem 4 – RainAir",
-      "projectPath": "D:\\softuni - tech module\\exercises\\Problem 4 – RainAir\\Problem 4 – RainAir.csproj",
+      "projectUniqueName": "D:\\softuni - tech module\\exercises\\Problem 3 - PostOffice\\Problem 3 - PostOffice.csproj",
+      "projectName": "Problem 3 - PostOffice",
+      "projectPath": "D:\\softuni - tech module\\exercises\\Problem 3 - PostOffice\\Problem 3 - PostOffice.csproj",
       "packagesPath": "C:\\Users\\Tisho\\.nuget\\packages\\",
-      "outputPath": "D:\\softuni - tech module\\exercises\\Problem 4 – RainAir\\obj\\",
+      "outputPath": "D:\\softuni - tech module\\exercises\\Problem 3 - PostOffice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
