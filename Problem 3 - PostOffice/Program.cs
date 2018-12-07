@@ -1,4 +1,4 @@
-﻿namespace Problem_3___PostOffice
+﻿namespace Problem03.PostOffice
 {
     using System;
     class Program
