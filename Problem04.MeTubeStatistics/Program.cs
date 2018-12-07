@@ -35,7 +35,7 @@
                     string[] input = command.Split(':').ToArray();
                     string rate = input[0];
                     string videoName = input[1];
-                   
+
                     if (meTubeLikes.ContainsKey(videoName))
                     {
                         if (rate == "like")
