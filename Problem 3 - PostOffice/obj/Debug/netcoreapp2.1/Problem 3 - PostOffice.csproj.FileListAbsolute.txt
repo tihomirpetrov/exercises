@@ -1,0 +1,11 @@
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\bin\Debug\netcoreapp2.1\Problem 3 - PostOffice.deps.json
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\bin\Debug\netcoreapp2.1\Problem 3 - PostOffice.runtimeconfig.json
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\bin\Debug\netcoreapp2.1\Problem 3 - PostOffice.runtimeconfig.dev.json
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\bin\Debug\netcoreapp2.1\Problem 3 - PostOffice.dll
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\bin\Debug\netcoreapp2.1\Problem 3 - PostOffice.pdb
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.csprojAssemblyReference.cache
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.csproj.CoreCompileInputs.cache
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.AssemblyInfoInputs.cache
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.AssemblyInfo.cs
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.dll
+D:\softuni - tech module\exercises\Problem 3 - PostOffice\obj\Debug\netcoreapp2.1\Problem 3 - PostOffice.pdb
