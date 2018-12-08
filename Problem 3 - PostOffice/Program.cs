@@ -1,8 +1,10 @@
 ﻿namespace Problem03.PostOffice
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Text;
+    using System.Text.RegularExpressions;
 
     class Program
     {
@@ -14,40 +16,47 @@
             string firstPart = tokens[0];
             string secondPart = tokens[1];
             string thirdPart = tokens[2];
+
             StringBuilder sb = new StringBuilder();
-
-            for (int i = 0; i < firstPart.Length; i++)
+            string pattern = $@"([#$%\*&])[A-Z]+\1";
+            MatchCollection matchSentences = Regex.Matches(firstPart, pattern);
+            foreach (Match item in matchSentences)
             {
-                if (firstPart[i] == '#' || firstPart[i] == '$' || firstPart[i] == '%' || firstPart[i] == '*' || firstPart[i] == '&')
-                {
-                    char symbol = firstPart[i];
-                    for (int j = i + 1; j < firstPart.Length; j++)
-                    {
+                sb.Append(item);
+            }
 
-                        if (!((char)j == symbol))
-                        {
-                            if (firstPart[j] == symbol)
-                            {
-                                break;
-                            }
-                            else
-                            {
-                               sb.Append(firstPart[j]);
-                            }
-                        }                        
+            pattern = $@"[0-9][0-9]:[0-9][0-9]";
+            MatchCollection matchSentences1 = Regex.Matches(secondPart, pattern);
+
+            List<int> list = new List<int>();
+            for (int i = 1; i < sb.Length - 1; i++)
+            {
+                foreach (Match item in matchSentences1)
+                {
+                    string sentence = item.Value.Trim();
+                    int[] part = sentence.Split(':').Select(int.Parse).ToArray();
+
+                    if (sb[i] == part[0])
+                    {
+                        list.Add(part[0]);
+                        list.Add(part[1]);
                     }
                 }
             }
 
-            for (int i = 0; i < secondPart.Length; i++)
+            List<string> words = thirdPart.Split(' ').ToList();
+            for (int i = 0; i < list.Count; i += 2)
             {
-                if (secondPart[i] == )
+                for (int j = 0; j < words.Count; j++)
                 {
-
+                    if ((char)list[i] == words[j][0] && list[i + 1] == words[j].Length - 1)
+                    {
+                        Console.WriteLine(words[j]);
+                        words.RemoveAt(j);
+                        j--;
+                    }
                 }
             }
-
-            Console.WriteLine(sb);
         }
     }
 }
