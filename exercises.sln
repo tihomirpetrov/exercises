@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem04.MeTubeStatistics"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.IronGirder", "P04.IronGirder\P04.IronGirder.csproj", "{27F33A8B-FE97-4B29-BE06-52E62484BD4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.SnowWhite", "P04.SnowWhite\P04.SnowWhite.csproj", "{C9B793FE-3379-4842-A56C-F9E29783E7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.SnowWhite", "P04.SnowWhite\P04.SnowWhite.csproj", "{C9B793FE-3379-4842-A56C-F9E29783E7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem03.TseamAccount", "Problem03.TseamAccount\Problem03.TseamAccount.csproj", "{A518D7BC-306B-49C9-8CEE-E19C686FAB09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C9B793FE-3379-4842-A56C-F9E29783E7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B793FE-3379-4842-A56C-F9E29783E7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B793FE-3379-4842-A56C-F9E29783E7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A518D7BC-306B-49C9-8CEE-E19C686FAB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A518D7BC-306B-49C9-8CEE-E19C686FAB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A518D7BC-306B-49C9-8CEE-E19C686FAB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A518D7BC-306B-49C9-8CEE-E19C686FAB09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
