@@ -42,17 +42,41 @@
                         userContestPoints.Add(username, new Dictionary<string, int>());
                         userContestPoints[username].Add(contest, points);
                     }
-                    points = Math.Max(userContestPoints[username][contest], points);
-                    userContestPoints[username].Add(contest, points);
+                    else if(userContestPoints.ContainsKey(username))
+                    {
+                        if (!userContestPoints[username].ContainsKey(contest))
+                        {
+                            userContestPoints[username].Add(contest, points);
+                        }
+                        points = Math.Max(userContestPoints[username][contest], points);
+                        userContestPoints[username][contest]= points;
+                    }
                 }
-
                 input2 = Console.ReadLine();
             }
 
-            Console.WriteLine($"Best candidate is {userContestPoints.Select(x=>x.Key)} with total {userContestPoints.Select(x=>x.Value.Values)} points.");
-            foreach (var students in userContestPoints)
+            var userContestPointsFiltered = userContestPoints.OrderByDescending(x => x.Value.Values.Sum()).Take(1);
+            string bestCandidate = string.Empty;
+            int bestPoints = 0;
+
+            foreach (var candidate in userContestPointsFiltered)
             {
-                Console.WriteLine($"{students.Key} ");
+                bestCandidate = candidate.Key;
+                foreach (var item in candidate.Value)
+                {
+                    bestPoints += item.Value;
+                }
+            }
+
+            Console.WriteLine($"Best candidate is {bestCandidate} with total {bestPoints} points.");
+            Console.WriteLine("Ranking:");
+            foreach (var user in userContestPoints.OrderBy(x=>x.Key))
+            {                
+                Console.WriteLine($"{user.Key} ");
+                foreach (var contest in user.Value.OrderByDescending(x=>x.Value))
+                {
+                    Console.WriteLine($"#  {contest.Key} -> {contest.Value}");
+                }
             }
         }
     }
