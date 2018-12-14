@@ -7,30 +7,54 @@
     {
         public static void Main()
         {
-            string input = Console.ReadLine();
-            char[] chars = input.ToCharArray();
-            string numberStr = string.Empty;
-            int number = 0;
-
+            string[] input = Console.ReadLine().Split(new char[]{ ' ','\t'}, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            double sum = 0;
             for (int i = 0; i < input.Length; i++)
             {
-                int firstLetter = input[i];
-                int lastLetter = input[i].ToString().Length - 1;
+                char[] chars = input[i].ToCharArray();
+                char firstLetter = chars[0];
+                char lastLetter = chars[chars.Length - 1];
+                string numberStr = string.Empty;
+                double number = 0;
+                int divide = 0;
+                int multiply = 0;
+                int add = 0;
+                int substract = 0;
+
+                for (int j = 1; j < chars.Length - 1; j++)
+                {
+                    numberStr += chars[j];
+                }
+                number = double.Parse(numberStr);
 
                 if (firstLetter >= 65 && firstLetter <= 90)
                 {
-                    int divide = firstLetter - 64;
+                    divide = firstLetter - 64;
+                    number = number / divide;
                 }
-                if (firstLetter >= 97 && firstLetter <= 122)
+                else if (firstLetter >= 97 && firstLetter <= 122)
                 {
-                    int multiply = firstLetter - 97;
+                    multiply = firstLetter - 96;
+                    number = number * multiply;
                 }
-                for (int j = 1; j < input[i].ToString().Length - 1; j++)
+
+
+                if (lastLetter >= 65 && lastLetter <= 90)
                 {
-                    numberStr += input[i + 1];
+                    substract = lastLetter - 64;
+                    number = number - substract;
                 }
-                number = int.Parse(numberStr);
+                else if (lastLetter >= 97 && lastLetter <= 122)
+                {
+                    add = lastLetter - 96;
+                    number = number + add;
+                }
+
+                sum += number;
+              
             }
+            Console.WriteLine($"{sum:f2}");
+
         }
     }
 }
