@@ -79,9 +79,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.LettersChangeNumbers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09.RageQuit", "P09.RageQuit\P09.RageQuit.csproj", "{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem01.Dictionary", "Problem01.Dictionary\Problem01.Dictionary.csproj", "{C921E3CB-4B32-4604-8C67-C67D6A255796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem01.Dictionary", "Problem01.Dictionary\Problem01.Dictionary.csproj", "{C921E3CB-4B32-4604-8C67-C67D6A255796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem02.Deciphering", "Problem02.Deciphering\Problem02.Deciphering.csproj", "{519FB708-2381-4FDA-820D-70083DB830F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem02.Deciphering", "Problem02.Deciphering\Problem02.Deciphering.csproj", "{519FB708-2381-4FDA-820D-70083DB830F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.ChoreWars", "P03.Chore Wars\P03.ChoreWars.csproj", "{44D36A36-D6B4-4079-9F7F-83E8BEA72264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{519FB708-2381-4FDA-820D-70083DB830F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{519FB708-2381-4FDA-820D-70083DB830F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{519FB708-2381-4FDA-820D-70083DB830F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D36A36-D6B4-4079-9F7F-83E8BEA72264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D36A36-D6B4-4079-9F7F-83E8BEA72264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D36A36-D6B4-4079-9F7F-83E8BEA72264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D36A36-D6B4-4079-9F7F-83E8BEA72264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

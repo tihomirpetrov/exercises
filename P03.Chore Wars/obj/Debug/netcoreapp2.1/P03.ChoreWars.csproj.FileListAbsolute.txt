@@ -1,0 +1,11 @@
+D:\softuni - tech module\exercises\P03.Chore Wars\bin\Debug\netcoreapp2.1\P03.ChoreWars.deps.json
+D:\softuni - tech module\exercises\P03.Chore Wars\bin\Debug\netcoreapp2.1\P03.ChoreWars.runtimeconfig.json
+D:\softuni - tech module\exercises\P03.Chore Wars\bin\Debug\netcoreapp2.1\P03.ChoreWars.runtimeconfig.dev.json
+D:\softuni - tech module\exercises\P03.Chore Wars\bin\Debug\netcoreapp2.1\P03.ChoreWars.dll
+D:\softuni - tech module\exercises\P03.Chore Wars\bin\Debug\netcoreapp2.1\P03.ChoreWars.pdb
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.csprojAssemblyReference.cache
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.csproj.CoreCompileInputs.cache
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.AssemblyInfoInputs.cache
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.AssemblyInfo.cs
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.dll
+D:\softuni - tech module\exercises\P03.Chore Wars\obj\Debug\netcoreapp2.1\P03.ChoreWars.pdb
