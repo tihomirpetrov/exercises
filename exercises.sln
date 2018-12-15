@@ -61,23 +61,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem04.AnonymousCache", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem03.AnonymousVox", "Problem03.AnonymousVox\Problem03.AnonymousVox.csproj", "{A101B43B-A358-4BF9-AD0F-7F4DEDE7E226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.ValidUsernames", "P01.ValidUsernames\P01.ValidUsernames.csproj", "{30B0E63C-F6CF-414A-BE20-F8A7C625FB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.ValidUsernames", "P01.ValidUsernames\P01.ValidUsernames.csproj", "{30B0E63C-F6CF-414A-BE20-F8A7C625FB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.CharacterMultiplier", "P02.CharacterMultiplier\P02.CharacterMultiplier.csproj", "{6F027011-14B6-4844-939E-6CD3D3EBCAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.CharacterMultiplier", "P02.CharacterMultiplier\P02.CharacterMultiplier.csproj", "{6F027011-14B6-4844-939E-6CD3D3EBCAA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.ExtractFile", "P03.ExtractFile\P03.ExtractFile.csproj", "{BB4C43BC-A8AB-45FD-9366-74244062FE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.ExtractFile", "P03.ExtractFile\P03.ExtractFile.csproj", "{BB4C43BC-A8AB-45FD-9366-74244062FE0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.CaesarCipher", "P04.CaesarCipher\P04.CaesarCipher.csproj", "{9F69DE47-03C8-4771-A330-CF94B1B764B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.CaesarCipher", "P04.CaesarCipher\P04.CaesarCipher.csproj", "{9F69DE47-03C8-4771-A330-CF94B1B764B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.MultiplyBigNumber", "P05.MultiplyBigNumber\P05.MultiplyBigNumber.csproj", "{AF684FC0-A664-4374-B74F-C3EDD007B0BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.MultiplyBigNumber", "P05.MultiplyBigNumber\P05.MultiplyBigNumber.csproj", "{AF684FC0-A664-4374-B74F-C3EDD007B0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.ReplaceRepeatingChars", "P06.ReplaceRepeatingChars\P06.ReplaceRepeatingChars.csproj", "{71BA5805-8456-4572-8043-EB3EADDF2500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.ReplaceRepeatingChars", "P06.ReplaceRepeatingChars\P06.ReplaceRepeatingChars.csproj", "{71BA5805-8456-4572-8043-EB3EADDF2500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.StringExplosion", "P07.StringExplosion\P07.StringExplosion.csproj", "{5E3423F6-9BBD-4F9D-AE50-D6CDE87792C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.StringExplosion", "P07.StringExplosion\P07.StringExplosion.csproj", "{5E3423F6-9BBD-4F9D-AE50-D6CDE87792C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.LettersChangeNumbers", "P08.LettersChangeNumbers\P08.LettersChangeNumbers.csproj", "{2B53034F-C8D4-4362-9BD6-B6DA253AC3D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.LettersChangeNumbers", "P08.LettersChangeNumbers\P08.LettersChangeNumbers.csproj", "{2B53034F-C8D4-4362-9BD6-B6DA253AC3D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.RageQuit", "P09.RageQuit\P09.RageQuit.csproj", "{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09.RageQuit", "P09.RageQuit\P09.RageQuit.csproj", "{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem01.Dictionary", "Problem01.Dictionary\Problem01.Dictionary.csproj", "{C921E3CB-4B32-4604-8C67-C67D6A255796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem02.Deciphering", "Problem02.Deciphering\Problem02.Deciphering.csproj", "{519FB708-2381-4FDA-820D-70083DB830F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +241,14 @@ Global
 		{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89EE63D6-3846-42EB-B95E-A6F73BBA0AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C921E3CB-4B32-4604-8C67-C67D6A255796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C921E3CB-4B32-4604-8C67-C67D6A255796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C921E3CB-4B32-4604-8C67-C67D6A255796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C921E3CB-4B32-4604-8C67-C67D6A255796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519FB708-2381-4FDA-820D-70083DB830F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519FB708-2381-4FDA-820D-70083DB830F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519FB708-2381-4FDA-820D-70083DB830F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519FB708-2381-4FDA-820D-70083DB830F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
