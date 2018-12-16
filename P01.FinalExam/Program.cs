@@ -55,28 +55,23 @@
 
             Console.WriteLine($"Total time: {totalTime}");
 
-            foreach (var item in bandNameTime.OrderByDescending(x => x.Value))
+            foreach (var item in bandNameTime.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
-                Console.WriteLine($"{item.Key} -> {item.Value}");
-
-                //if (bandNameMembers.ContainsKey(item.Key) == bandNameTime.ContainsKey(item.Key))
-                //{
-                    
-                //    Console.WriteLine($"{bandNameMembers[item.Key]}");
-                //    Console.WriteLine($"=> {bandNameMembers[item.Key][item.Value]}");
-                //}
+                Console.WriteLine($"{item.Key} -> {item.Value}");               
             }
 
-
-            foreach (var band in bandNameMembers.OrderByDescending(x => x.Key))
+            string bestBand = Console.ReadLine();
+            foreach (var band in bandNameMembers)
             {
-                Console.WriteLine($"{band.Key}");
-                foreach (var item in band.Value)
+                if (band.Key == bestBand)
                 {
-                    Console.WriteLine($"=> {item}");
+                    Console.WriteLine($"{band.Key}");
+                    foreach (var item in band.Value)
+                    {
+                        Console.WriteLine($"=> {item}");
+                    }
                 }
-            }
-
+            }            
         }
     }
 }
