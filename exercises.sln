@@ -85,9 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem02.Deciphering", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.ChoreWars", "P03.Chore Wars\P03.ChoreWars.csproj", "{44D36A36-D6B4-4079-9F7F-83E8BEA72264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.FinalExam", "P01.FinalExam\P01.FinalExam.csproj", "{71806CD7-7DFC-43B6-8FE1-A6C9283F948C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.FinalExam", "P01.FinalExam\P01.FinalExam.csproj", "{71806CD7-7DFC-43B6-8FE1-A6C9283F948C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.FinalExam", "P02.FinalExam\P02.FinalExam.csproj", "{38AA1F33-3783-4B7D-B53A-162BE2F65F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.FinalExam", "P02.FinalExam\P02.FinalExam.csproj", "{38AA1F33-3783-4B7D-B53A-162BE2F65F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.ExtractPersonInformation", "P01.ExtractPersonInformation\P01.ExtractPersonInformation.csproj", "{A28E2822-1799-4D8A-99EA-A60CF86ABCFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{38AA1F33-3783-4B7D-B53A-162BE2F65F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AA1F33-3783-4B7D-B53A-162BE2F65F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AA1F33-3783-4B7D-B53A-162BE2F65F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28E2822-1799-4D8A-99EA-A60CF86ABCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28E2822-1799-4D8A-99EA-A60CF86ABCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28E2822-1799-4D8A-99EA-A60CF86ABCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28E2822-1799-4D8A-99EA-A60CF86ABCFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
