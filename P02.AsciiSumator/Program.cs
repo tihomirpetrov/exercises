@@ -20,7 +20,7 @@
                         sum += (int)(lastLine[i]);
                     }
                 }
-            }            
+            }
 
             Console.WriteLine(sum);
         }
